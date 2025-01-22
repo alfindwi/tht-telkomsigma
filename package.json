@@ -1,0 +1,20 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^1.1.1",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vite": "^5.4.11"
+    },
+    "dependencies": {
+        "@vitejs/plugin-vue": "^5.2.1",
+        "highcharts-vue": "^2.0.1",
+        "vue": "^3.5.13",
+        "vue-router": "^4.5.0"
+    }
+}
