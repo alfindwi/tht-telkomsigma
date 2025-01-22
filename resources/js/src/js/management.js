@@ -53,8 +53,9 @@ export default {
             });
 
             const sortedByDate = filtered.sort(
-                (a, b) => new Date(b.update_at) - new Date(a.update_at)
+                (a, b) => new Date(b.updated_at) - new Date(a.updated_at)
             );
+            
 
             return sortedByDate;
         },
